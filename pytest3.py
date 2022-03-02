@@ -1,2 +1,0 @@
-print("This and that")
-
