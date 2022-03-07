@@ -25,4 +25,7 @@ output = net_connect.send_command("show version")
 with open("send_text.txt","w") as f:
     f.write(output)
 
+devices = (device1,device2)
+print(devices[1])
+
 #print(device2.net_connect.find_prompt())
